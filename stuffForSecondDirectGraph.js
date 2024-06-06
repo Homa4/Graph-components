@@ -95,7 +95,7 @@ const printStrongComponents = strongMatrix => {
     for (let i = 0; i < strongMatrix.length; i++) {
         for (let j = 0; j < strongMatrix[i].length; j++) {
             if (strongMatrix[i][j] === 1) {
-                components.push(`${i + 1}`);
+                 components.push(`(${i + 1}, ${j + 1})`);
             }
         }
     }
